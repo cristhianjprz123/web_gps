@@ -1,0 +1,37 @@
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(216, 216, 216);
+    border-radius: 40px;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  .e-input-group:not(.e-float-icon-left), .e-input-group.e-success:not(.e-float-icon-left), .e-input-group.e-warning:not(.e-float-icon-left), .e-input-group.e-error:not(.e-float-icon-left), .e-input-group.e-control-wrapper:not(.e-float-icon-left), .e-input-group.e-control-wrapper.e-success:not(.e-float-icon-left), .e-input-group.e-control-wrapper.e-warning:not(.e-float-icon-left), .e-input-group.e-control-wrapper.e-error:not(.e-float-icon-left){
+    border: none;
+  }
+  .navbar {
+    z-index: 10000;
+  }
+  @media  screen and (max-width:800px) {
+    .sidebar{
+      z-index: 10000000;
+    }
+  }
+  .btn {
+    width: 19px; /* Ajusta el tamaño del botón según tus necesidades */
+    height: 19px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .check-btn {
+    background: url('https://api.iconify.design/ic/baseline-check-box.svg?color=%2322c55e&width=17&height=17') no-repeat center center / cover;
+  }
+  
+/* Reemplaza el icono de dibujar un polígono */
+.leaflet-draw-draw-polygon {
+  background-image: url('https://api.iconify.design/ic/baseline-check-box.svg?color=%2322c55e&width=17&height=17');
+}

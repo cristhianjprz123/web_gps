@@ -1,0 +1,121 @@
+.delete-button {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+    border: none;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.164);
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+}
+
+.delete-svgIcon {
+    width: 9px;
+}
+
+.delete-svgIcon path {
+    fill: white;
+}
+
+.delete-button:hover {
+    background-color: red;
+}
+
+
+.delete-button::before {
+    display: none;
+}
+.edit-button {
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    background-color: #22C55E;
+    border: none;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.164);
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none !important;
+  }
+  
+  .edit-svgIcon {
+    width: 9px;
+  }
+  
+  .edit-svgIcon path {
+    fill: white;
+  }
+  
+  .edit-button:hover {
+    background-color: #22C55E;
+  }
+  
+ 
+  
+  .edit-button::before {
+    display: none;
+  }
+  
+  .edit-button:hover::before {
+    display: none;
+  }
+  .send-button {
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    background-color: blue;
+    border: none;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.164);
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none !important;
+  }
+  
+  .send-svgIcon {
+    width: 11.5px;
+  }
+  
+  .send-svgIcon path {
+    fill: white;
+  }
+  
+  .send-button:hover {
+    background-color: blue;
+  }
+  
+ 
+  
+  .send-button::before {
+    display: none;
+  }
+  
+  .send-button:hover::before {
+    display: none;
+  }
+  .edit-button:disabled {
+    background-color: black;
+    opacity: 0.5;
+}
+
+.send-button:disabled {
+    background-color: black;
+    opacity: 0.5;
+}
+.delete-button:disabled {
+  background-color: black;
+  opacity: 0.5;
+}
